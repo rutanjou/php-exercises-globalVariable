@@ -5,13 +5,19 @@
 	<title>Exer 1</title>
 </head>
 <body>
-	<form>
-		<label>User Agent</label>
-		<input type="text" name="userAgent">
-		<label>Adresse IP</label>
+	<form method="" action="">
+		<label for="userAgent">User Agent: </label>
+		<input type="text" name="userAgent"> 
+		<br>
+		<br>
+		<label for="adresseIp">Adresse IP : </label>
 		<input type="text" name="adresseIp">
-		<label>Nom du Serveur</label>
+		<br>
+		<br>
+		<label for="nomduServeur">Nom du Serveur : </label>
 		<input type="text" name="nomduServeur">
+		<br>
+		<br>
 		<input type="submit" value="Envoyer">
 	</form>
 </body>
